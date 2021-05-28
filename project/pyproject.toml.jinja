@@ -24,14 +24,6 @@ build-backend = "pdm.pep517.api"
 [tool.pdm.scripts]
 _.env_file = ".env"
 
-[tool.pdm.scripts.test.env]
-POWERTOOLS_TRACE_DISABLED = "1"
-POWERTOOLS_LOG_DEDUPLICATION_DISABLED = "1"
-
-test.cmd = [
-    "pytest",
-    "--ignore",
-    "cdk.out",
-]
+test = "pytest"
 
 deploy = "cdk deploy"

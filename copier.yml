@@ -1,6 +1,7 @@
+_subdirectory: project
 _templates_suffix: .jinja
 
-
+project_name: "orkestra_project"
 name:
   type: str
   help: your name
