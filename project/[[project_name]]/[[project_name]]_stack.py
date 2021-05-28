@@ -1,5 +1,5 @@
 from aws_cdk import core as cdk
-from project.lambdas.hello_orkestra import generate_item
+from lambdas.hello_orkestra import generate_item
 
 
 class HelloOrkestra(cdk.Stack):
