@@ -1,5 +1,7 @@
 _subdirectory: project
 _templates_suffix: .jinja
+_tasks:
+  - python scripts/post_generation.py
 
 project_name: "orkestra_project"
 name:
