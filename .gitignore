@@ -9,3 +9,10 @@ __pycache__
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+.pdm.toml
+.idea/
+__pypackages__
+
+# TODO: unignore this
+pdm.lock

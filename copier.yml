@@ -1,0 +1,7 @@
+_templates_suffix: .jinja
+
+
+name:
+  help: your name
+email:
+  help: your email
