@@ -1,6 +1,8 @@
 
 # Orkestra project template
 
+This template is meant to help you scaffold a new Orkestra project.
+
 ## Requirements
 
 ### [copier][copier]
