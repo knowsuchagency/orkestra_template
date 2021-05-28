@@ -39,7 +39,18 @@ pdm run deploy
 
 ## Notes
 
+### environment variables
+
 Any environment variables you want to set for commands you invoke via `pdm run {{command}}` can be configured in your
 `.env` file.
 
-Just be sure to add `.env` to your `.gitignore` if adding secrets.
+### bootstrapping
+
+If this is the first time there's been a CDK deployment into the AWS account you're deploying to, the account may need
+to be bootstrapped.
+
+The full documentation on that process is here: https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html
+
+```bash
+pdm run cdk bootstrap
+```
